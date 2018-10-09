@@ -31,7 +31,6 @@ expo start
 
 
 <b>C-Files presentation</b> <br>
-
 1-In this repository you will find a file called 'App.js'.This will be our main project page.For the sake of analogy,it is to React Native what index.php is to PHP project.
 
 2-Open the 'App.js' file and replace line 3 with the page you want to visualize/test.For instance if I want to test my 'Chatroom.js' page,I go to 'App.js' file and write 'import Chatroom from './pages/Chatroom';' and replace line 11 with <Chatroom/>.
