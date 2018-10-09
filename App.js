@@ -1,14 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Profile from './pages/Profile';
+import Signup from './pages/Signup'
 //import Home from './pages/Home';
-//import Signup from './pages/Signup';
+//import Profile from './pages/Profile';
+
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         
-		<Profile/>
+		<Signup/>
       </View>
     );
   }
